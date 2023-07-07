@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fman.ge.smart_auth",
+    "module": "smart_auth_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smart_auth_debug-1.0.aar",
+          "url": "smart_auth_debug-1.0.aar",
+          "size": 38746,
+          "sha512": "b3c6d007162dbbf09e3f45c806dd144ccffa4cdc676cb8c157a5ec0e26b95bc3995fb8b1f5cde18168113fdf4ea1812a21dc846057de1a2b99442722a248500a",
+          "sha256": "57b93e546c4302f9b83d524808b464215e8a2b99a33a4db33bbd3735dabe26bb",
+          "sha1": "6d314d486f4e6cc0420c535146b6300351dc8f2a",
+          "md5": "fc5bb1576333feaeaa82f2b9bebde656"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-auth",
+          "version": {
+            "requires": "20.4.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-auth-api-phone",
+          "version": {
+            "requires": "18.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smart_auth_debug-1.0.aar",
+          "url": "smart_auth_debug-1.0.aar",
+          "size": 38746,
+          "sha512": "b3c6d007162dbbf09e3f45c806dd144ccffa4cdc676cb8c157a5ec0e26b95bc3995fb8b1f5cde18168113fdf4ea1812a21dc846057de1a2b99442722a248500a",
+          "sha256": "57b93e546c4302f9b83d524808b464215e8a2b99a33a4db33bbd3735dabe26bb",
+          "sha1": "6d314d486f4e6cc0420c535146b6300351dc8f2a",
+          "md5": "fc5bb1576333feaeaa82f2b9bebde656"
+        }
+      ]
+    }
+  ]
+}
