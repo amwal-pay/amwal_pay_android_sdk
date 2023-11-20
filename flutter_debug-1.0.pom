@@ -7,7 +7,7 @@
   <!-- that they should prefer consuming it instead. -->
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.amwal.amwal_pay</groupId>
+  <groupId>com.github.amwal-pay</groupId>
   <artifactId>flutter_debug</artifactId>
   <version>1.0</version>
   <packaging>aar</packaging>
@@ -15,53 +15,47 @@
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>flutter_embedding_debug</artifactId>
-      <version>1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420</version>
+      <version>1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>armeabi_v7a_debug</artifactId>
-      <version>1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420</version>
+      <version>1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>arm64_v8a_debug</artifactId>
-      <version>1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420</version>
+      <version>1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>x86_64_debug</artifactId>
-      <version>1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420</version>
+      <version>1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>x86_debug</artifactId>
-      <version>1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420</version>
+      <version>1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.github.amwal-pay.amwal_pay_android_sdk</groupId>
-      <artifactId>shared_preferences_android_debug</artifactId>
-      <version>1.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.github.amwal-pay.amwal_pay_android_sdk</groupId>
+      <groupId>com.github.amwal-pay</groupId>
       <artifactId>share_plus_debug</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.github.amwal-pay.amwal_pay_android_sdk</groupId>
+      <groupId>com.github.amwal-pay</groupId>
       <artifactId>path_provider_android_debug</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.github.amwal-pay.amwal_pay_android_sdk</groupId>
+      <groupId>com.github.amwal-pay</groupId>
       <artifactId>smart_auth_debug</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
