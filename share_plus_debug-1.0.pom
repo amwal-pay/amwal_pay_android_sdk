@@ -7,9 +7,9 @@
   <!-- that they should prefer consuming it instead. -->
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.github.amwal-pay</groupId>
+  <groupId>com.github.amwal-pay.amwal_pay_android_sdk</groupId>
   <artifactId>share_plus_debug</artifactId>
-  <version>6.0</version>
+  <version>7.0</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>

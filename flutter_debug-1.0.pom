@@ -43,21 +43,21 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.github.amwal-pay</groupId>
+      <groupId>com.github.amwal-pay.amwal_pay_android_sdk</groupId>
       <artifactId>share_plus_debug</artifactId>
-      <version>6.0</version>
+      <version>7.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.github.amwal-pay</groupId>
+      <groupId>com.github.amwal-pay.amwal_pay_android_sdk</groupId>
       <artifactId>path_provider_android_debug</artifactId>
-      <version>6.0</version>
+      <version>7.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.github.amwal-pay</groupId>
+      <groupId>com.github.amwal-pay.amwal_pay_android_sdk</groupId>
       <artifactId>smart_auth_debug</artifactId>
-      <version>6.0</version>
+      <version>7.0</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
