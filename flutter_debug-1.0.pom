@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.amwal-pay</groupId>
   <artifactId>flutter_debug</artifactId>
-  <version>5.0</version>
+  <version>6.0</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
@@ -45,19 +45,19 @@
     <dependency>
       <groupId>com.github.amwal-pay</groupId>
       <artifactId>share_plus_debug</artifactId>
-      <version>1.0</version>
+      <version>6.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.github.amwal-pay</groupId>
       <artifactId>path_provider_android_debug</artifactId>
-      <version>1.0</version>
+      <version>6.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.github.amwal-pay</groupId>
       <artifactId>smart_auth_debug</artifactId>
-      <version>1.0</version>
+      <version>6.0</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>

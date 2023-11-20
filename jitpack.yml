@@ -1,8 +1,7 @@
 install:
-  - mvn install:install-file -Dfile=flutter_debug-1.0.aar  -DgroupId=com.github.amwal-pay -DartifactId=flutter_debug -Dversion=1.0.0 -Dpackaging=aar -DpomFile=flutter_debug-1.0.pom
-  - mvn install:install-file -Dfile=path_provider_android_debug-1.0.aar  -DgroupId=com.github.amwal-pay -DartifactId=pathprovider_debug -Dversion=1.0.0 -Dpackaging=aar -DpomFile=path_provider_android_debug-1.0.pom
-  - mvn install:install-file -Dfile=share_plus_debug-1.0.aar  -DgroupId=com.github.amwal-pay -DartifactId=share_plus_debug -Dversion=1.0.0 -Dpackaging=aar -DpomFile=share_plus_debug-1.0.pom
-  - mvn install:install-file -Dfile=smart_auth_debug-1.0.aar  -DgroupId=com.github.amwal-pay -DartifactId=smart_auth_debug -Dversion=1.0.0 -Dpackaging=aar -DpomFile=smart_auth_debug-1.0.pom
-  - mvn install:install-file -Dfile=shared_preferences_android_debug-1.0.aar  -DgroupId=com.github.amwal-pay -DartifactId=sharedpreferences_debug -Dversion=1.0.0 -Dpackaging=aar -DpomFile=shared_preferences_android_debug-1.0.pom
+  - mvn install:install-file -Dfile=flutter_debug-1.0.aar  -DgroupId=com.github.amwal-pay -DartifactId=flutter_debug -Dversion=6.0.0 -Dpackaging=aar -DpomFile=flutter_debug-1.0.pom
+  - mvn install:install-file -Dfile=path_provider_android_debug-1.0.aar  -DgroupId=com.github.amwal-pay -DartifactId=pathprovider_debug -Dversion=6.0.0 -Dpackaging=aar -DpomFile=path_provider_android_debug-1.0.pom
+  - mvn install:install-file -Dfile=share_plus_debug-1.0.aar  -DgroupId=com.github.amwal-pay -DartifactId=share_plus_debug -Dversion=6.0.0 -Dpackaging=aar -DpomFile=share_plus_debug-1.0.pom
+  - mvn install:install-file -Dfile=smart_auth_debug-1.0.aar  -DgroupId=com.github.amwal-pay -DartifactId=smart_auth_debug -Dversion=6.0.0 -Dpackaging=aar -DpomFile=smart_auth_debug-1.0.pom
 
 
